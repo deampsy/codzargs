@@ -1,0 +1,37 @@
+.post {
+  position: relative;
+  margin: 5vh auto;
+  width: 100vw;
+  height: 65vh;
+}
+
+.post-image-container {
+  position: relative;
+  margin: 0 auto 2vh auto;
+  width: 100vw; 
+  height: 55vh;
+  overflow: hidden;
+}
+
+.post-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.wide-image {
+  max-height: 100%;  
+}
+
+.tall-image {
+  max-width: 100%;
+}
+
+.post-text {
+  position: relative;
+  font: 50px "Rubik Glitch", cursive;
+  color: rgb(255,0,0);
+  margin: 0 auto;
+  text-align: center;
+}

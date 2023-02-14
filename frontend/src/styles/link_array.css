@@ -1,0 +1,8 @@
+.link-array {
+  position: absolute;
+  top: 50%;
+  left: 5vw;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: row;
+}

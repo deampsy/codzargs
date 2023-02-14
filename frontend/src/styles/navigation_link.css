@@ -1,0 +1,6 @@
+.navigation-link {
+  position: relative;
+  font: 1.4vh "Share Tech Mono", monospace;
+  margin-right: 1.5vw;
+  cursor: pointer;
+}

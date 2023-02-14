@@ -1,0 +1,23 @@
+.comment {
+	position: relative;
+	width: 100%;
+	height: 100px;
+	background: rgb(222,218,240); 
+	border: 1px solid red;
+}
+
+.comment-date {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 10px;
+
+}
+
+.comment-text {
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	transform: translate(50%,-50%);
+
+}
